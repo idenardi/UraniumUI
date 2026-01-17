@@ -34,7 +34,6 @@ public partial class EditorField
             var editorField = (bindable as EditorField);
 
             editorField.EditorView.FontFamily = (string)newValue;
-            editorField.labelTitle.FontFamily = (string)newValue;
         });
 
     [TypeConverter(typeof(KeyboardTypeConverter))]
